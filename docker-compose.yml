@@ -1,0 +1,18 @@
+version:  '3'
+services:
+#servico possivel de duplicar (testando)
+  node1:
+    build:
+      dockerfile: ./docker/angular_aps.dockerfile
+      context:  .
+    image: aps_front/node1
+    ports:
+      - "80:80"
+    networks:
+      - cnp_1
+    
+#redes internas do Docker nomenclaturas na wiki
+networks:
+  cnp_1:
+    driver: bridge
+
