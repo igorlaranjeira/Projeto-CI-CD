@@ -9,7 +9,7 @@ node("master") {
 
 		stage('node build'){
 
-			sh 'npm install -g yarn'
+			sh 'npm install -y'
             sh 'ng build'
 		}
 
