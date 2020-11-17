@@ -1,2 +1,2 @@
 # Projeto-CI-CD
-Projeto Voltado a trabalho de faculdade "APS"
+Projeto relacionado ao trabalho semestral chamado "APS" (Atividade Pratica Supervisionada) da faculdade IES
