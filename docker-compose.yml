@@ -1,6 +1,6 @@
 version:  '3'
 services:
-#servico possivel de duplicar (testando)
+#serviços que localiza dockerfile e executa
   node1:
     build:
       dockerfile: ./docker/angular_aps.dockerfile
@@ -11,7 +11,7 @@ services:
     networks:
       - cnp_1
     
-#redes internas do Docker nomenclaturas na wiki
+#redes internas bridge do Docker
 networks:
   cnp_1:
     driver: bridge
